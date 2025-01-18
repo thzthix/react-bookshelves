@@ -1,0 +1,1 @@
+export const CURRENT_BOOK_KEY = "currentBook";
