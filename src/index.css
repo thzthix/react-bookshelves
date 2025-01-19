@@ -16,6 +16,7 @@
 section{
   margin-bottom: 1rem;
 }
+
 li{
   list-style: none;
 }
@@ -64,6 +65,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.book-details {
+  list-style-type: none;
+  text-align: left;
+}
+
+.book-details > li:before {
+  content: "–"; /* en dash */
+  position: absolute;
+  margin-left: -0.8em; 
+  
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

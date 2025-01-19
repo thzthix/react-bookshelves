@@ -1,15 +1,14 @@
 // @ts-nocheck
-import Bookshelves from "@/components/Bookshelves";
 import CurrentBookContextProvider from "@/contexts/CurrentBookContextProvider";
-import Footer from "@/components/Footer";
+import MainPage from "@/Pages/MainPage";
 import "@/index.css"
 const App = () => {
   return (
     <>
       <CurrentBookContextProvider>
-      <Bookshelves/>
+      <MainPage />
     </CurrentBookContextProvider>
-    <Footer />
+   
     </>
   );
 };
